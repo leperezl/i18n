@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Intl from './intl'
 
-import JobsList from "./components/jobslist";
-
-ReactDOM.render(<JobsList />, document.getElementById("root"));
+ReactDOM.render(
+	<Intl></Intl>, document.getElementById("root")
+);
